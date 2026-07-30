@@ -1,0 +1,58 @@
+=== Python Binomial Confidence Interval Test Suite ===
+Timestamp: 2026-07-31 00:19:59.742498
+=====================================================
+
+Test 1: Zero errors
+  Input: n_errs=0, n_trials=100, level=0.95
+  BER: 0.0000000000
+  Confidence Interval: [0.0000000000, 0.0362166926]
+  Status: PASS
+
+Test 2: Few errors (5/100)
+  Input: n_errs=5, n_trials=100, level=0.95
+  BER: 0.0500000000
+  Confidence Interval: [0.0164318792, 0.1128349111]
+  Status: PASS
+
+Test 3: Half errors (50/100)
+  Input: n_errs=50, n_trials=100, level=0.95
+  BER: 0.5000000000
+  Confidence Interval: [0.3983211295, 0.6016788705]
+  Status: PASS
+
+Test 4: Most errors (95/100)
+  Input: n_errs=95, n_trials=100, level=0.95
+  BER: 0.9500000000
+  Confidence Interval: [0.8871650889, 0.9835681208]
+  Status: PASS
+
+Test 5: All errors (100/100)
+  Input: n_errs=100, n_trials=100, level=0.95
+  BER: 1.0000000000
+  Confidence Interval: [0.9637833074, 1.0000000000]
+  Status: PASS
+
+Test 6: Single error in many trials
+  Input: n_errs=1, n_trials=1000, level=0.95
+  BER: 0.0010000000
+  Confidence Interval: [0.0000253175, 0.0055589243]
+  Status: PASS
+
+Test 7: Different confidence level (90%)
+  Input: n_errs=10, n_trials=100, level=0.90
+  BER: 0.1000000000
+  Confidence Interval: [0.0552632377, 0.1637176233]
+  Status: PASS
+
+Test 8: High confidence level (99%)
+  Input: n_errs=10, n_trials=100, level=0.99
+  BER: 0.1000000000
+  Confidence Interval: [0.0381956532, 0.2019535208]
+  Status: PASS
+
+=====================================================
+Test Summary
+  Total: 8
+  Passed: 8
+  Failed: 0
+=====================================================

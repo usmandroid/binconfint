@@ -1,0 +1,64 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "binconfint"
+version = "0.1.0"
+description = "Binomial confidence interval calculations using F-distribution method"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [
+    {name = "Sheikh Usman Ali", email = "usmanskp@yahoo.com"},
+]
+license = {text = "MIT"}
+keywords = ["binomial", "confidence", "interval", "statistics"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Statistics",
+]
+
+dependencies = [
+    "numpy>=2.5",
+    "scipy>=1.18",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4",
+    "pytest-cov>=4.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/usmandroid/confint"
+Repository = "https://github.com/usmandroid/confint.git"
+Issues = "https://github.com/usmandroid/confint/issues"
+
+[tool.setuptools]
+packages = ["binconfint"]
+
+[tool.setuptools.package-data]
+binconfint = []
+
+[tool.black]
+line-length = 88
+target-version = ["py312"]
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | build
+  | dist
+  | __pycache__
+)/
+'''
