@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "binconfint"
 version = "0.1.0"
 description = "Binomial confidence interval calculations using F-distribution method"
-readme = "README.md"
+readme = {file = "README.md", content-type = "text/markdown"}
 requires-python = ">=3.12"
 authors = [
     {name = "Sheikh Usman Ali", email = "usmanskp@yahoo.com"},
