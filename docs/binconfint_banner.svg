@@ -1,0 +1,57 @@
+<svg viewBox="0 0 495 170" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#131c2e"/>
+    </linearGradient>
+    <linearGradient id="bar1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5eead4"/>
+      <stop offset="100%" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <linearGradient id="bar2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="bar3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a5b4fc"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="495" height="170" rx="14" fill="url(#bg)"/>
+
+  <g transform="translate(38,38)">
+    <line x1="0" y1="96" x2="150" y2="96" stroke="#334155" stroke-width="1.5"/>
+
+    <rect x="6" y="46" width="20" height="50" rx="3" fill="url(#bar1)"/>
+    <line x1="16" y1="26" x2="16" y2="66" stroke="#e2e8f0" stroke-width="2"/>
+    <line x1="9" y1="26" x2="23" y2="26" stroke="#e2e8f0" stroke-width="2"/>
+    <line x1="9" y1="66" x2="23" y2="66" stroke="#e2e8f0" stroke-width="2"/>
+
+    <rect x="50" y="24" width="20" height="72" rx="3" fill="url(#bar2)"/>
+    <line x1="60" y1="6" x2="60" y2="48" stroke="#e2e8f0" stroke-width="2"/>
+    <line x1="53" y1="6" x2="67" y2="6" stroke="#e2e8f0" stroke-width="2"/>
+    <line x1="53" y1="48" x2="67" y2="48" stroke="#e2e8f0" stroke-width="2"/>
+
+    <rect x="94" y="60" width="20" height="36" rx="3" fill="url(#bar3)"/>
+    <line x1="104" y1="44" x2="104" y2="78" stroke="#e2e8f0" stroke-width="2"/>
+    <line x1="97" y1="44" x2="111" y2="44" stroke="#e2e8f0" stroke-width="2"/>
+    <line x1="97" y1="78" x2="111" y2="78" stroke="#e2e8f0" stroke-width="2"/>
+
+    <rect x="138" y="36" width="20" height="60" rx="3" fill="url(#bar2)" opacity="0.6"/>
+    <line x1="148" y1="16" x2="148" y2="58" stroke="#e2e8f0" stroke-width="2" opacity="0.85"/>
+    <line x1="141" y1="16" x2="155" y2="16" stroke="#e2e8f0" stroke-width="2" opacity="0.85"/>
+    <line x1="141" y1="58" x2="155" y2="58" stroke="#e2e8f0" stroke-width="2" opacity="0.85"/>
+  </g>
+
+  <g transform="translate(230,0)">
+    <text x="0" y="88" font-family="Helvetica, Arial, sans-serif" font-size="38" font-weight="700" fill="#f8fafc">binconfint</text>
+    <rect x="2" y="102" width="200" height="4" rx="2" fill="url(#accent)"/>
+    <text x="0" y="130" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#94a3b8">Binomial confidence intervals</text>
+    <text x="0" y="150" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#94a3b8">for Python</text>
+  </g>
+</svg>

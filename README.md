@@ -1,3 +1,4 @@
+![binconfint banner](https://raw.githubusercontent.com/usmandroid/binconfint/main/docs/binconfint_banner.svg)
 # binconfint - Python based confidence Interval for binomial data
 
 ## Use Cases
