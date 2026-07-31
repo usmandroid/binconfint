@@ -34,9 +34,9 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/usmandroid/confint"
-Repository = "https://github.com/usmandroid/confint.git"
-Issues = "https://github.com/usmandroid/confint/issues"
+Homepage = "https://github.com/usmandroid/binconfint"
+Repository = "https://github.com/usmandroid/binconfint.git"
+Issues = "https://github.com/usmandroid/binconfint/issues"
 
 [tool.setuptools]
 packages = ["binconfint"]
