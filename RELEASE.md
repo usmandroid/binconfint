@@ -8,3 +8,14 @@ git push origin :refs/tags/v0.1.0
 git tag v0.1.0
 git push origin v0.1.0
 ```
+
+
+
+Release command for V0.1.1
+```bash
+git add .
+git commit -m "Fix Version number"
+git push origin :refs/tags/v0.1.1
+git tag v0.1.1
+git push origin v0.1.1
+```
