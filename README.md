@@ -1,4 +1,9 @@
 ![binconfint banner](https://raw.githubusercontent.com/usmandroid/binconfint/main/docs/binconfint_banner.svg)
+[![PyPI version](https://img.shields.io/pypi/v/binconfint.svg)](https://pypi.org/project/binconfint/)
+[![Python versions](https://img.shields.io/pypi/pyversions/binconfint.svg)](https://pypi.org/project/binconfint/)
+[![License](https://img.shields.io/github/license/usmandroid/binconfint.svg)](https://github.com/usmandroid/binconfint/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/usmandroid/binconfint.svg?style=social)](https://github.com/usmandroid/binconfint/stargazers)
+
 # binconfint - Python based confidence Interval for binomial data
 
 ## Use Cases
